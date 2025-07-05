@@ -58,26 +58,7 @@ npm install
 npm start
 ```
 
-## Configuration
 
-### Backend Environment Variables
-```bash
-DATABASE_URL=your_postgres_connection_string
-TokenKey=your_jwt_secret_key
-CloudinarySettings__CloudName=your_cloud_name
-CloudinarySettings__ApiKey=your_api_key
-CloudinarySettings__ApiSecret=your_api_secret
-```
-
-### Frontend Environment
-```typescript
-// environment.ts
-export const environment = {
-  production: false,
-  apiUrl: 'https://localhost:5001/api/',
-  hubUrl: 'https://localhost:5001/hubs/'
-};
-```
 
 ## Project Structure
 ```
@@ -128,4 +109,3 @@ docker run -p 8080:8080 datingapp
 
 ---
 
-**Note**: Currently deployed on Fly.io but may require server configuration updates.
